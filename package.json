@@ -7,6 +7,7 @@
     "build": "./bin/build.sh",
     "clean": "./bin/clean.sh",
     "dev": "./bin/dev.sh",
+    "start": "./bin/start.sh",
     "stop-dev": "./bin/stop-dev.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +21,8 @@
     "webpack": "^4.33.0",
     "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.7.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }

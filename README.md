@@ -1,4 +1,4 @@
-# Webapp template
+# Web App template
 
 ## Set up
 
@@ -23,6 +23,13 @@ npm run stop-dev
 ```
 
 ### Production
+
+Start the production server. **Note:** This cleans and builds for you.
+
+```bash
+npm start
+```
+
 
 Build the distribution
 
