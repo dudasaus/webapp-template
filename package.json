@@ -4,9 +4,11 @@
   "description": "Boiler plate for a web app made with TypeScript and Sass",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./bin/build.sh",
+    "clean": "./bin/clean.sh",
     "dev": "./bin/dev.sh",
-    "stop-dev": "./bin/stop-dev.sh"
+    "stop-dev": "./bin/stop-dev.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Austin Dudas",
   "license": "ISC",
